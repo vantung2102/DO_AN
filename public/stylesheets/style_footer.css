@@ -1,0 +1,36 @@
+/* footer */
+.footer{
+	padding: 50px 0 35px;
+}
+.span1_of_4 h4 {
+    margin: 0 0 15px 0;
+    font-size: 23px;
+    color: #1ecbf4;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 0;
+}
+.f_nav li {
+    list-style-type: none;
+    margin: 5px 0;
+}
+.f_nav li a{
+	font-size: 14px;
+    color: #B3B3B3;
+    text-transform: capitalize;
+}
+.cards {
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    margin: 40px 0;
+    padding: 25px 0;
+}
+.copyright p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #929292;
+    letter-spacing: 1px;
+}
+.copyright p a {
+    color: #1ecbf4;
+}

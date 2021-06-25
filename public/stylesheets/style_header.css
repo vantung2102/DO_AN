@@ -1,0 +1,42 @@
+.header-top-strip{
+	padding: 8px 0 14px 0;
+	background-color:#1ecbf4;
+}
+.header-top-left ul li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.header-top-left ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+}
+.header-top-left ul li a span{
+	font-size: 10px;
+    vertical-align: initial;
+    margin-right: 6px;
+}
+.header-top-left{
+	float: left !important;
+	margin-top: 5px;
+}
+.header-right{
+	float: right !important;
+	margin-top: 5px;
+}
+.box_1 h3{
+	color: #fff;
+    font-size: 15px;
+    margin-bottom: 0;
+    float: left;
+    font-weight: 400;
+    padding: 0;
+}
+.box_1 p{
+	margin-left: 8px;
+	float: left;
+}
+a.simpleCart_empty {
+    font-size: 14px;
+    color: #fff;
+}

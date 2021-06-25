@@ -1,0 +1,173 @@
+    /* banner-starts */
+        .inner-banner{
+            background-color: #fff;
+        }
+    
+    /* registration-form */
+        .registration-form {
+            padding: 60px 0;
+        }
+        .registration-top {
+            margin: 15px 0 60px 0;
+            background-color: #FDFDFD;
+            padding: 10px 20px;
+        }
+        .registration-top-left{
+            float: left;
+        }
+        .registration-top-left{
+            padding: 0;
+            list-style: none;
+            float: left;
+        }
+        .registration-top-left li{
+            display: inline-block;
+        }
+        .registration-top-left li a{
+            color: #1ecbf4;
+            font-size: 16px;
+        }
+        .registration-top-left li.women{
+            font-size: 14px;
+            padding: 1px;
+        }
+        .registration-top-right{
+            float: right;
+            list-style: none;
+            margin-top: 3px;
+            padding: 0;
+        }
+        .registration-top-right li a{
+            font-size: 14px;
+            color: #929292;
+        }
+        .registration-form h2{
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #000;
+            font-size: 20px;
+            padding-bottom: 18px;
+        }
+        .reg-form {
+            float: left;
+            width: 50%;
+        }
+        .reg p{
+            color: #898989;
+            font-size: 14px;
+            margin: 0px 0 0 0;
+            line-height: 1.8em;
+        }
+        .reg p a{
+            color: #1ecbf4;
+            text-decoration: none;
+        }
+        .reg form{
+            margin-top: 32px;
+        }
+        .reg form ul {
+            padding: 0;
+            margin: 0 0 22px 0;
+        }
+        .reg form ul li{
+            display: inline-block;
+            /* list-style: none; */
+            width: 58%;
+            /* float: left; */
+        }
+        .reg form ul li:nth-child(2){
+            margin-left: 3%;
+        }
+        .reg form ul li.text-info{
+            color: #1ecbf4;
+            font-size: 16px;
+            width: 38%;
+            margin:0 0 0px 0 ;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .reg form ul li input[type="text"], .reg form ul li input[type="password"]
+        { 
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            font-weight: 400;
+            border: solid 1px #898989;
+            outline-color: #1ecbf4;
+            color: #000;
+        }
+        .reg form input[type="submit"]{
+            background-color: #1ecbf4;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 9px 35px;
+            margin-top: 10px ;
+            margin-bottom: 32px;
+            margin-left: 57%;
+            border: none;
+        }
+        .reg p.click{
+            margin-left: 45%;
+        }
+        .reg form input[type=submit]:hover {
+            background:#f8f8f8;
+            color: #1ecbf4;
+            border: solid 1px #1ecbf4;
+            transition: .5s all;
+            -webkit-transition: .5s all;
+            -o-transition: .5s all;
+            -ms-transition: .5s all;
+            -moz-transition: .5s all;
+        }
+        .reg-right {
+            float: right;
+            width: 47%;
+        }
+        .reg-right p {
+            color: #CAC9C9;
+            margin: 0 0 30px 0;
+            font-size: 14px;
+            line-height: 1.8em;
+        }
+    /* news letter */
+        .news-letter {
+            background-color: #F7F7F7;
+            padding: 35px 0;
+        }
+        .join h6 {
+            font-size: 22px;
+            font-weight: 400;
+            color: #000;
+            float: left;
+            margin-right: 5%;
+            margin-top: 10px;
+            letter-spacing: 1px;
+            font-family: 'Lato-Regular';
+            padding: 0;
+        }
+        .join input[type="text"] {
+            width: 48%;
+            color: #C3C3C3;
+            letter-spacing: 1px;
+            font-weight: 300;
+            font-size: 15px;
+            padding: 10px 10px;
+            border: 1px solid #E4E4E4;
+            outline: none;
+            font-family: 'Lato-Regular';
+            text-align: left;
+        }
+        .join input[type="submit"] {
+            outline: none;
+            cursor: pointer;
+            width: 22%;
+            padding: 7px 10px;
+            background: #1ecbf4;
+            color: #fff;
+            font-size: 19px;
+            font-weight: 400;
+            margin: 0px 0 0 5px;
+            border: none;
+            -webkit-apperance: none;
+        }
