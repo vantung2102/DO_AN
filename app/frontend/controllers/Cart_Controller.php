@@ -13,9 +13,18 @@
 
         function getProducts() {
             $this->layout->setLayout(null);
+            $status = API_SUCCESS;
+            $message = '';
             $data = $this->model->cart->find_All();
-            
-            echo json_encode($data);
+            if (empty($data)) {
+                $status = API_ERROR;
+                $message = 'Cart is empty !';
+            } else {
+                $status = API_SUCCESS;
+                $message = 'Cart has products !';
+            }
+
+		    return to_api_json($status, $message, $data);
 
         }
     }

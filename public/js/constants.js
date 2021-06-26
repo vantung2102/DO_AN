@@ -1,5 +1,5 @@
 export class Constants {
-    host = "http://localhost/DO_AN";
+    host = "http://localhost:8080/DO_AN";
 
     baseUrl(string) {
         let array = string.split('/');

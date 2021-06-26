@@ -30,7 +30,8 @@ $(document).ready(function(){
             url: obj.baseUrl('cart/getProducts'),
             // dataType: 'JSON',
             success: function(response) {
-                console.log(response);
+                var data = JSON.parse(response);
+                console.log(data['data']);
             },
             error: function(error) {
                 console.log(error);
